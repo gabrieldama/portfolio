@@ -1,12 +1,22 @@
 ```
-* It's a beautiful day outside.
-* Birds are singing, flowers are blooming...
-* On days like these, devs like you...
+╔════════════════════════════════════════════╗
+║  * It's a beautiful day outside.           ║
+║  * Birds are singing, flowers are          ║
+║    blooming...                             ║
+║  * On days like these, devs like you...    ║
+╚════════════════════════════════════════════╝
 ```
 
----
-
-<h1 align="center">❤ Portfolio — Gabriel</h1>
+<h1 align="center">
+<pre>
+ ██████╗  █████╗ ██████╗ ██████╗ ██╗███████╗██╗
+██╔════╝ ██╔══██╗██╔══██╗██╔══██╗██║██╔════╝██║
+██║  ███╗███████║██████╔╝██████╔╝██║█████╗  ██║
+██║   ██║██╔══██║██╔══██╗██╔══██╗██║██╔══╝  ██║
+╚██████╔╝██║  ██║██████╔╝██║  ██║██║███████╗███████╗
+ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝
+</pre>
+</h1>
 
 <p align="center">
   <strong>Página de portfolio pessoal feita com HTML e CSS puro.</strong><br/>
@@ -15,7 +25,16 @@
 
 ---
 
-## ❤ Estrutura do projeto
+```
+┌─────────────────────────────┐
+│  GABRIEL    LV 1            │
+│  HP ████████████████  20/20 │
+└─────────────────────────────┘
+```
+
+---
+
+## ♦ Estrutura do projeto
 
 ```
 portfolio/
@@ -33,40 +52,52 @@ portfolio/
 
 ---
 
-## ❤ O que tem no portfolio
+## ♦ O que tem no portfolio
 
-| Seção | Descrição |
-|---|---|
-| **Início** | Apresentação com nome em fonte Monster Friend (logo do Undertale) |
-| **Projetos** | Cards com projetos reais: Kofi Ctrl, Análise de Disco e Apresentação Acadêmica |
-| **Sobre mim** | Texto de apresentação com tags de habilidades |
-| **Contato** | Links para e-mail, GitHub e LinkedIn |
-
----
-
-## ❤ Tecnologias
-
-- **HTML5** — estrutura semântica
-- **CSS3** — layout com Flexbox e Grid, variáveis CSS, animações
-- **Undertale Stylesheet** — fontes originais do jogo por [Eric Lanthier](https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font) e colaboradores
+```
+╔══════════════╦══════════════════════════════════════════════════════════╗
+║    SEÇÃO     ║  DESCRIÇÃO                                               ║
+╠══════════════╬══════════════════════════════════════════════════════════╣
+║  Início      ║  Apresentação com nome em fonte Monster Friend           ║
+║  Projetos    ║  Cards: Kofi Ctrl, Análise de Disco, Apresentação        ║
+║  Sobre mim   ║  Texto de apresentação com tags de habilidades           ║
+║  Contato     ║  Links para e-mail, GitHub e LinkedIn                    ║
+╚══════════════╩══════════════════════════════════════════════════════════╝
+```
 
 ---
 
-## ❤ Fontes utilizadas
+## ♦ Tecnologias
 
-> Todas as fontes são de uso livre para fins não-comerciais. Créditos aos criadores originais.
-
-| Fonte | Uso no projeto |
-|---|---|
-| Determination Mono | Textos corridos / diálogo |
-| Determination Sans | Menus e cabeçalhos |
-| Monster Friend | Título / nome principal |
-| Mercy | Botões e tags de skills |
-| MNC | Eyebrows e detalhes |
+```
+* [FIGHT  ]  HTML5 .............. estrutura semântica
+* [ACT    ]  CSS3 ............... Flexbox, Grid, animações
+* [ITEM   ]  Undertale Stylesheet  fontes originais do jogo
+* [MERCY  ]  Sem frameworks ..... zero dependências externas
+```
 
 ---
 
-## ❤ Como usar
+## ♦ Fontes utilizadas
+
+> Todas as fontes são de uso livre para fins não-comerciais.
+> Créditos aos criadores originais.
+
+```
+╔══════════════════════╦══════════════════════════════╗
+║  FONTE               ║  USO                         ║
+╠══════════════════════╬══════════════════════════════╣
+║  Determination Mono  ║  Textos corridos / diálogo   ║
+║  Determination Sans  ║  Menus e cabeçalhos          ║
+║  Monster Friend      ║  Título / nome principal     ║
+║  Mercy               ║  Botões e tags de skills     ║
+║  MNC                 ║  Eyebrows e detalhes         ║
+╚══════════════════════╩══════════════════════════════╝
+```
+
+---
+
+## ♦ Como usar
 
 ```bash
 # Clone o repositório
@@ -78,29 +109,53 @@ start index.html   # Windows
 open index.html    # macOS
 ```
 
-> Nenhuma dependência externa. Nenhum framework. Funciona direto no navegador.
+```
+╔════════════════════════════════════════════╗
+║  * Nenhuma dependência externa.            ║
+║  * Nenhum framework.                       ║
+║  * Funciona direto no navegador.           ║
+╚════════════════════════════════════════════╝
+```
 
 ---
 
-## ❤ Projetos em destaque
+## ♦ Projetos em destaque
 
-**Kofi Ctrl**
-> Sistema de administração de cafeteria com identidade visual kawaii.
-> Desenvolvido em dupla com Nicole, sob o grupo **Light Projects**.
+```
+┌──────────────────────────────────────────────────────┐
+│  ♦ KOFI CTRL                          [ HTML·CSS·JS ] │
+├──────────────────────────────────────────────────────┤
+│  Sistema de administração de cafeteria com           │
+│  identidade visual kawaii.                           │
+│  Desenvolvido com Nicole — grupo Light Projects.     │
+└──────────────────────────────────────────────────────┘
 
-**Análise de Disco**
-> Script PowerShell personalizado para mapear uso do disco C: no Windows
-> e identificar arquivos e pastas pesadas.
+┌──────────────────────────────────────────────────────┐
+│  ♦ ANÁLISE DE DISCO               [ Python·PowerShell]│
+├──────────────────────────────────────────────────────┤
+│  Script para mapear uso do disco C: no Windows,      │
+│  identificando arquivos e pastas pesadas.            │
+└──────────────────────────────────────────────────────┘
 
-**Apresentação Acadêmica**
-> Deck de 15 slides gerado a partir de documentação Notion e exports do Figma
-> para apresentação final de projeto no SENAI.
+┌──────────────────────────────────────────────────────┐
+│  ♦ APRESENTAÇÃO ACADÊMICA           [ Figma · PPTX ] │
+├──────────────────────────────────────────────────────┤
+│  Deck de 15 slides gerado a partir de documentação   │
+│  Notion e exports do Figma. Projeto final no SENAI.  │
+└──────────────────────────────────────────────────────┘
+```
 
 ---
 
 ```
-* GABRIEL checked the repository.
-* It's full of DETERMINATION.
+╔════════════════════════════════════════════╗
+║                                            ║
+║   * GABRIEL checked the repository.        ║
+║   * It's full of DETERMINATION.            ║
+║                                            ║
+║   [ FIGHT ] [ ACT ] [ ITEM ] [ MERCY ]     ║
+║                                            ║
+╚════════════════════════════════════════════╝
 ```
 
-<p align="center">Feito com ❤ por Gabriel &nbsp;·&nbsp; SENAI — Desenvolvimento de Sistemas</p>
+<p align="center">Feito com ♥ por Gabriel &nbsp;·&nbsp; SENAI — Desenvolvimento de Sistemas</p>
