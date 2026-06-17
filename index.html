@@ -1,12 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel - Portfolio</title>
-    <link rel="stylesheet" href="css/style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    
+
+<div class="page-wrapper">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="heart">❤</div>
+    <nav>
+      <a href="#projetos">Projetos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="level">LV<br>1</div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="hero-eyebrow">* Howdy!</div>
+      <h1 data-text="Oi, eu sou o Gabriel!">Oi, eu sou o Gabriel!</h1>
+      <p class="hero-sub">
+        Estudante de <span>Desenvolvimento de Sistemas</span> no SENAI.<br>
+        Crio interfaces, sistemas web e soluções que funcionam de verdade.
+      </p>
+    </section>
+
+    <!-- Projetos -->
+    <section class="section-projects" id="projetos">
+      <div class="section-heading">Projetos feitos</div>
+
+      <div class="projects-grid">
+
+        <div class="card">
+          <span class="card-marker">❤</span>
+          <div class="card-tech">HTML · CSS · JS</div>
+          <h3>Kofi Ctrl</h3>
+          <p>Sistema de administração de cafeteria com identidade visual kawaii. Desenvolvido com a Nicole sob o grupo Light Projects.</p>
+          <a href="#" class="card-link">Ver projeto</a>
+        </div>
+
+        <div class="card">
+          <span class="card-marker">❤</span>
+          <div class="card-tech">Python · PowerShell</div>
+          <h3>Análise de Disco</h3>
+          <p>Script personalizado para mapear uso do disco C: no Windows, identificando arquivos e pastas pesadas para liberar espaço.</p>
+          <a href="#" class="card-link">Ver projeto</a>
+        </div>
+
+        <div class="card">
+          <span class="card-marker">❤</span>
+          <div class="card-tech">Figma · PPTX</div>
+          <h3>Apresentação Acadêmica</h3>
+          <p>Deck de 15 slides gerado a partir de documentação Notion e exports do Figma para apresentação final do projeto.</p>
+          <a href="#" class="card-link">Ver projeto</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Sobre mim -->
+    <section class="section-about" id="sobre">
+      <div class="section-heading">Sobre mim:</div>
+
+      <div class="about-box">
+        <div class="about-inner">
+          <p>
+            * Eai! Sou o <span class="highlight">Gabriel</span>, estudante de
+            <span class="orange">Desenvolvimento de Sistemas</span> no SENAI.
+             Gosto de resolver problemas reais com código -
+            do front-end ao terminal do Windows.
+          </p>
+          <p>
+            Tenho experiência com <span class="highlight">HTML, CSS, JavaScript</span>,
+            Python e ferramentas de prototipação como <span class="orange">Figma</span>.
+            Curto projetos com identidade visual forte e sistemas que fazem sentido para quem usa.
+          </p>
+
+          <div class="skills-row">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">PowerShell</span>
+            <span class="skill-tag">Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section-contact" id="contato">
+      <div class="section-heading">Contato</div>
+      <div class="btn-row">
+        <a href="mailto:gabriel@email.com" class="ut-btn">E-mail</a>
+        <a href="https://github.com/" target="_blank" class="ut-btn">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" class="ut-btn">LinkedIn</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Feito com <span>❤</span> por Gabriel &nbsp;·&nbsp; * YOU WON THE GAME.</p>
+    </footer>
+
+  </main>
+</div>
+
 </body>
 </html>

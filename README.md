@@ -123,7 +123,7 @@ open index.html    # macOS
 
 ```
 ┌──────────────────────────────────────────────────────┐
-│  ♦ KOFI CTRL                          [ HTML·CSS·JS ] │
+│  ♦ KOFI CTRL                         [ HTML·CSS·JS ] │
 ├──────────────────────────────────────────────────────┤
 │  Sistema de administração de cafeteria com           │
 │  identidade visual kawaii.                           │
@@ -131,7 +131,7 @@ open index.html    # macOS
 └──────────────────────────────────────────────────────┘
 
 ┌──────────────────────────────────────────────────────┐
-│  ♦ ANÁLISE DE DISCO               [ Python·PowerShell]│
+│  ♦ ANÁLISE DE DISCO              [ Python·PowerShell]│
 ├──────────────────────────────────────────────────────┤
 │  Script para mapear uso do disco C: no Windows,      │
 │  identificando arquivos e pastas pesadas.            │
