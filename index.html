@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Gabriel — Estudante de Desenvolvimento de Sistemas no SENAI. Projetos com HTML, CSS, JavaScript, Python e Figma." />
   <title>Gabriel — Portfolio</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -10,73 +11,87 @@
 
 <div class="page-wrapper">
 
-  <!-- Sidebar -->
-  <aside class="sidebar">
-    <div class="heart">❤</div>
-    <nav>
-      <a href="#projetos">Projetos</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#contato">Contato</a>
+  <aside class="sidebar" aria-label="Navegação lateral">
+    <div class="heart" aria-hidden="true">❤</div>
+    <nav aria-label="Navegação principal">
+      <a href="#inicio"   class="nav-link" data-section="inicio">Início</a>
+      <a href="#projetos" class="nav-link" data-section="projetos">Projetos</a>
+      <a href="#sobre"    class="nav-link" data-section="sobre">Sobre</a>
+      <a href="#contato"  class="nav-link" data-section="contato">Contato</a>
     </nav>
-    <div class="level">LV<br>1</div>
+    <div class="level" aria-label="Nível 1">LV<br>1</div>
   </aside>
 
-  <!-- Main -->
-  <main class="main">
+  <header class="mobile-header" aria-label="Cabeçalho mobile">
+    <span class="heart" aria-hidden="true">❤</span>
+    <nav aria-label="Navegação mobile">
+      <a href="#inicio"   class="nav-link" data-section="inicio">Início</a>
+      <a href="#projetos" class="nav-link" data-section="projetos">Projetos</a>
+      <a href="#sobre"    class="nav-link" data-section="sobre">Sobre</a>
+      <a href="#contato"  class="nav-link" data-section="contato">Contato</a>
+    </nav>
+    <span class="level" aria-hidden="true">LV 1</span>
+  </header>
 
-    <!-- Hero -->
-    <section class="hero" id="inicio">
+  <main class="main" id="main-content">
+
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
       <div class="hero-eyebrow">* Howdy!</div>
-      <h1 data-text="Oi, eu sou o Gabriel!">Oi, eu sou o Gabriel!</h1>
+      <h1 id="hero-title">
+        <span class="title-back" aria-hidden="true">Oi, eu sou o Gabriel!</span>
+        <span class="title-fore">Oi, eu sou o Gabriel!</span>
+      </h1>
       <p class="hero-sub">
         Estudante de <span>Desenvolvimento de Sistemas</span> no SENAI.<br>
         Crio interfaces, sistemas web e soluções que funcionam de verdade.
       </p>
+      <div class="availability-badge" aria-label="Status: aberto a estágios">
+        <span class="badge-dot" aria-hidden="true"></span>
+        Aberto a estágios
+      </div>
     </section>
 
-    <!-- Projetos -->
-    <section class="section-projects" id="projetos">
-      <div class="section-heading">Projetos feitos</div>
+    <section class="section-projects" id="projetos" aria-labelledby="heading-projetos">
+      <div class="section-heading" id="heading-projetos">Projetos feitos</div>
 
       <div class="projects-grid">
 
-        <div class="card">
-          <span class="card-marker">❤</span>
-          <div class="card-tech">HTML · CSS · JS</div>
-          <h3>Kofi Ctrl</h3>
+        <a href="https://github.com/SENAI-Cotia/light" class="card" aria-label="Ver projeto Kofi Ctrl — HTML, CSS e JavaScript">
+          <span class="card-marker" aria-hidden="true">❤</span>
+          <div class="card-tech" aria-label="Tecnologias: HTML, CSS, JS">HTML · CSS · JS</div>
+          <h3 class="card-title">Kofi Ctrl</h3>
           <p>Sistema de administração de cafeteria com identidade visual kawaii. Desenvolvido com a Nicole sob o grupo Light Projects.</p>
-          <a href="#" class="card-link">Ver projeto</a>
-        </div>
+          <span class="card-link" aria-hidden="true">Ver projeto →</span>
+        </a>
 
-        <div class="card">
-          <span class="card-marker">❤</span>
-          <div class="card-tech">Python · PowerShell</div>
-          <h3>Análise de Disco</h3>
+        <a href="#" class="card" aria-label="Ver projeto Análise de Disco — Python e PowerShell">
+          <span class="card-marker" aria-hidden="true">❤</span>
+          <div class="card-tech" aria-label="Tecnologias: Python, PowerShell">Python · PowerShell</div>
+          <h3 class="card-title">Análise de Disco</h3>
           <p>Script personalizado para mapear uso do disco C: no Windows, identificando arquivos e pastas pesadas para liberar espaço.</p>
-          <a href="#" class="card-link">Ver projeto</a>
-        </div>
+          <span class="card-link" aria-hidden="true">Ver projeto →</span>
+        </a>
 
-        <div class="card">
-          <span class="card-marker">❤</span>
-          <div class="card-tech">Figma · PPTX</div>
-          <h3>Apresentação Acadêmica</h3>
+        <a href="#" class="card" aria-label="Ver projeto Apresentação Acadêmica — Figma e PPTX">
+          <span class="card-marker" aria-hidden="true">❤</span>
+          <div class="card-tech" aria-label="Tecnologias: Figma, PPTX">Figma · PPTX</div>
+          <h3 class="card-title">Apresentação Acadêmica</h3>
           <p>Deck de 15 slides gerado a partir de documentação Notion e exports do Figma para apresentação final do projeto.</p>
-          <a href="#" class="card-link">Ver projeto</a>
-        </div>
+          <span class="card-link" aria-hidden="true">Ver projeto →</span>
+        </a>
 
       </div>
     </section>
 
-    <!-- Sobre mim -->
-    <section class="section-about" id="sobre">
-      <div class="section-heading">Sobre mim:</div>
+    <section class="section-about" id="sobre" aria-labelledby="heading-sobre">
+      <div class="section-heading" id="heading-sobre">Sobre mim:</div>
 
       <div class="about-box">
         <div class="about-inner">
           <p>
             * Eai! Sou o <span class="highlight">Gabriel</span>, estudante de
             <span class="orange">Desenvolvimento de Sistemas</span> no SENAI.
-             Gosto de resolver problemas reais com código -
+            Gosto de resolver problemas reais com código —
             do front-end ao terminal do Windows.
           </p>
           <p>
@@ -85,7 +100,7 @@
             Curto projetos com identidade visual forte e sistemas que fazem sentido para quem usa.
           </p>
 
-          <div class="skills-row">
+          <div class="skills-row" aria-label="Habilidades técnicas">
             <span class="skill-tag">HTML</span>
             <span class="skill-tag">CSS</span>
             <span class="skill-tag">JavaScript</span>
@@ -98,19 +113,23 @@
       </div>
     </section>
 
-    <!-- Contato -->
-    <section class="section-contact" id="contato">
-      <div class="section-heading">Contato</div>
+    <section class="section-contact" id="contato" aria-labelledby="heading-contato">
+      <div class="section-heading" id="heading-contato">Contato</div>
+      <p class="contact-sub">* Quer colaborar ou tem uma oportunidade? Me chama!</p>
       <div class="btn-row">
-        <a href="mailto:gabriel@email.com" class="ut-btn">E-mail</a>
-        <a href="https://github.com/" target="_blank" class="ut-btn">GitHub</a>
-        <a href="https://linkedin.com/" target="_blank" class="ut-btn">LinkedIn</a>
+        <a href="mailto:gabriel@email.com"         class="ut-btn" aria-label="Enviar e-mail para Gabriel">E-mail</a>
+        <a href="https://github.com/gabrieldama"   class="ut-btn" target="_blank" rel="noopener noreferrer" aria-label="Perfil de Gabriel no GitHub (abre em nova aba)">GitHub</a>
+        <a href="https://linkedin.com/in/gabriel"  class="ut-btn" target="_blank" rel="noopener noreferrer" aria-label="Perfil de Gabriel no LinkedIn (abre em nova aba)">LinkedIn</a>
       </div>
     </section>
 
-    <footer>
-      <p>Feito com <span>❤</span> por Gabriel &nbsp;·&nbsp; * YOU WON THE GAME.</p>
-    </footer>
+  </main>
+
+</div>
+
+<footer role="contentinfo">
+  <p>Feito com <span aria-hidden="true">❤</span><span class="sr-only">amor</span> por Gabriel &nbsp;·&nbsp; * YOU WON THE GAME.</p>
+</footer>
 
   </main>
 </div>
